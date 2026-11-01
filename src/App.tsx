@@ -14,7 +14,7 @@ type Route = { v: View; sub?: string; chap?: string; note?: Note | null };
 type Msg = { r: 'u' | 'a'; t: string };
 
 const KEY = 'smartnotes-ai-v1';
-const EMPTY: Store = { users: {}, me: null, notes: [], quiz: [], marks: [], last: null, theme: 'light', lang: 'en', cls: '10', fs: 17 };
+const EMPTY: Store = { users: {}, me: null, notes: [], quiz: [], marks: [], last: null, theme: 'dark', lang: 'en', cls: '10', fs: 17 };
 const TABS: [View, string, string][] = [
   ['home', 'Home', 'M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z'],
   ['books', 'Books', 'M4 4h6v16H4zM14 4h6v16h-6z'],
